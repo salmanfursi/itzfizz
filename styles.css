@@ -1,0 +1,110 @@
+/* styles.css */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f2f2f2;
+}
+
+header {
+   text-align: center;
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+}
+
+h1 {
+   font-size: 36px;
+   margin: 0;
+}
+
+h2 {
+   font-size: 24px;
+   margin-top: 20px;
+}
+
+p {
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+ul, ol {
+   list-style: none;
+   padding: 0;
+}
+
+li {
+   margin-bottom: 5px;
+}
+
+footer {
+   text-align: center;
+   padding: 10px;
+   background-color: #333;
+   color: #fff;
+}
+
+/* Add styles to sections */
+section {
+   background-color: #fff;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add styles to links */
+a {
+   text-decoration: none;
+   color: #007BFF;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+/* Add styles to the header section */
+#career-objective {
+   background-color: #FFA500;
+}
+
+/* Add styles to the skills section */
+#skills ul {
+   column-count: 2;
+}
+
+/* Add styles to the projects section */
+#projects li {
+   margin-bottom: 20px;
+}
+
+/* Add styles to the personal profile section */
+#personal-profile ul {
+   column-count: 2;
+}
+
+/* Add signature style */
+#personal-profile p:last-child {
+   font-weight: bold;
+   margin-top: 10px;
+}
+
+/* Add some additional spacing and alignment */
+section:not(#career-objective) {
+   margin-top: 40px;
+}
+
+footer {
+   margin-top: 40px;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+   #skills ul {
+       column-count: 1;
+   }
+
+   #personal-profile ul {
+       column-count: 1;
+   }
+}
